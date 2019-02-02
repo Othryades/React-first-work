@@ -1,0 +1,97 @@
+
+.mobile-form {
+    background: white;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+.mobile-form form{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mobile-form form input{
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: 42px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 1;
+    position: unset;
+}
+.mobile-form form textarea{
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: 80px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 1;
+    position: unset;
+}
+
+.mobile-form form input[type=button]{
+    background: #3591F9;
+    border-radius: 100px;
+    color: #FFFFFF;
+    width: 280px;
+    height: 42px;
+    border: 0px solid #ccc;
+    cursor: pointer; 
+}
+
+.mobile-form form input[type=button]:disabled{
+    color: rgb(84, 84, 84);
+    background: gainsboro;
+}
+
+.mobile-form .fa{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.mobile-form .loader i.fa.fa-spinner{
+    font-size: 80px !important;
+}
+
+.mobile-form .success i.fa.fa-check {
+    font-size: 80px !important;
+    color: #c3e6cb;
+}
+
+.mobile-form .success p{
+    margin: 0;
+    font-size: 25px;
+    color: #3591F9;
+    line-height: 1;
+}
+
+.mobile-form h3{
+    font-size: 1.25rem;
+    color: #6179A5;
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.mobile-form h4{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mobile-doctors-names-list{
+    padding: 0 66px;
+
+}
+
+.mobile-form .alert.alert-danger {
+    width: 280px !important;
+    margin: 0 auto !important;
+    /* margin-bottom: 12px; */
+    position: relative !important;
+    top: -12px !important;
+}

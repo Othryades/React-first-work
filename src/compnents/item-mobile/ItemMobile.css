@@ -1,0 +1,419 @@
+.mobile-item {
+    width: 100%;
+    /* border: 1px solid #6179A5; */
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    /* padding-bottom: 0; */
+}
+
+.img-mobile {
+    width: 100%;
+    position: relative;
+    top: 7px;
+    right: 5px;
+}
+
+/* .item-top {
+  display: flex;
+}
+
+
+
+.top-left {
+  margin-right: 10px;
+}
+
+.top-left span {
+  display: block;
+}
+
+.mobile-name {
+  font-size: 1.25rem;
+  color: #385487;
+  font-weight: bold;
+}
+
+.mobile-address {
+  font-size: 0.875rem;
+  color: #6179A5;
+}
+
+.call-now {
+  background: #45E47B;
+  border-radius: 100px;
+  width: 220px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.call-now .fa {
+  color: #258B74;
+  margin: 2px 4px;
+}
+
+.now {
+  color: #fff;
+  display: inline-block;
+}
+
+.more-text {
+  font-size: 14px;
+  color: #B1BFD8;
+}
+
+.more-text .fa {
+  font-size: 0.875rem;
+  color: #B1BFD8;
+}
+
+.item-bottom {
+  width: 63%;
+  margin-right: 10px;
+}
+
+.top-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #3591F9;
+}
+
+.contact-us-mobile, .more-info {
+  margin: 10px 17px;
+}
+
+.more-info {
+  cursor: pointer;
+}
+
+.envelope {
+  margin-left: 8px;
+}
+
+.arrow {
+  margin-right: 10px;
+}
+
+.show-more-div {
+  background-color: #F4F5FE;
+}
+
+.more-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.more-top span {
+  display: block;
+}
+
+.avial-rate-star {
+  color: #57A3FA;
+}
+
+.more-rate-text, .more-reviews-text, .more-availability-text {
+  font-size: 1.125rem;
+  color: #385487;
+  font-weight: bold;
+}
+
+.about {
+  margin: 0 5%;
+}
+
+.about-header {
+  font-size: 18px;
+  color: #385487;
+  text-align: right;
+  font-weight: bold;
+} */
+
+/*Links*/
+
+/* a.call-now:link, a.call-now:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+} */
+
+/* mobile */
+.mobile-item .mobile-data {
+    padding: 0;
+}
+
+.mobile-item .mobile-data p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    width: 162px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mobile-item .mobile-data h5 {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.mobile-item .mobile-user-rating {
+    padding: 0;
+    position: relative;
+    left: 15px;
+}
+
+.mobile-item .mobile-user-rating p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.mobile-item .CircularProgressbar {
+    margin-top: 5px;
+    width: 50px;
+}
+
+.mobile-item .CircularProgressbar .CircularProgressbar-text {
+    font-size: 2.2rem;
+}
+
+.mobile-item .fa-graduation-cap {
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+.mobile-item .fa-map-marker {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.mobile-item .mobile-phone {
+    background: #45E47B;
+    border: 1px solid #45E47B;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    height: 29.7px;
+    line-height: 29.7px;
+    position: relative;
+    width: 125px;
+    left: 15px;
+}
+
+.mobile-item .mobile-message {
+    border: 1px solid #3591F9;
+    border-radius: 50px;
+    color: #3591F9;
+    line-height: 29.7px;
+    position: relative;
+    width: 115px;
+    left: 26px;
+    font-weight: bold;
+}
+
+.mobile-item .mobile-message a {
+    color: #3591F9;
+}
+
+.mobile-item .marg-six {
+    margin-left: 6px;
+}
+
+.mobile-item .mobile-multiselect {
+    font-size: 0.9rem;
+    width: 30px;
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    left: -7px;
+    top: 0;
+    color: #3591F9;
+}
+
+.mobile-item .mobile-checkbox {
+    position: absolute;
+    top: 6px;
+    width: 15px;
+    height: 15px;
+    color: #3591F9;
+}
+
+.mobile-item .row.mobile-buttons-wrapper {
+    margin-top: 10px;
+}
+
+.mobile-item .mobile-reviews {
+    border-left: 1px solid #CFD2F3;
+}
+
+.mobile-item .row.mobile-reviews-wrapper {
+    padding: 15px 0 0 0;
+    color: #385487;
+    font-size: 0.9rem;
+}
+
+.mobile-item .mobile-reviews-wrapper i {
+    color: #CFD2F3;
+    margin-left: 5px;
+}
+
+.row.mobile-about-wrapper {
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+}
+
+.imageWrapper-mobile {
+    /* height: 58px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    /* background-color: red; */
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.mobile-item input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 5;
+    width: 103px;
+    height: 23px;
+}
+
+/* Create a custom checkbox */
+.mobile-item .checkmark {
+    display: inline-block;
+    border: 2px solid #2196F3;
+    border-radius: 2px;
+    padding-left: 10px;
+    height: 15px;
+    width: 10px;
+    margin-bottom: 5px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.mobile-item input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.mobile-item .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.mobile-item input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indica
+tor */
+.mobile-item .checkmark:after {
+    /* left: 3px;
+    top: 0px; */
+    margin-right: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.mobile-item .fa-phone {
+    color: #258B74;
+    -webkit-transform: rotate(-101deg);
+    -ms-transform: rotate(-101deg);
+    transform: rotate(-101deg);
+}
+
+.mobile-item .add-rating {
+    margin-right: 18px;
+    /*padding-top: 5px;*/
+    color: #3591F9;
+    position: relative;
+    top: 5px;
+}
+
+.mobile-item .add-rating i {
+    position: relative;
+    top: -24px;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 767px) {
+    .mobile-item .add-rating i {
+        position: relative;
+        top: 0px;
+        left: 0;
+        right: -85px;
+    }
+
+    .mobile-item .add-rating {
+        margin-right: 56px;
+    }
+}
+
+@media (max-width: 650px) {
+    .mobile-item .add-rating {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .mobile-item .add-rating {
+        margin-right: 26px;
+    }
+}
+
+@media (max-width: 450px) {
+    .img-mobile-wrapper {
+        padding-left: 2px;
+    }
+
+    .mobile-item .add-rating {
+        margin-right: 3px;
+    }
+}
+
+@media (max-width: 365px) {
+    .add-rating {
+        left: -17px;
+    }
+}
+
+@media (max-width: 350px) {
+    .mobile-item .mobile-phone {
+        width: 105px;
+    }
+
+    .mobile-item .mobile-message {
+        width: 103px;
+    }
+
+    .img-mobile-wrapper {
+        padding-right: 7px;
+    }
+
+    .mobile-item .add-rating {
+        margin-right: 0;
+    }
+
+    .mobile-item .add-rating i {
+        top: -24px;
+        right: -16px;
+    }
+
+    .inner-wrapper h1 {
+        font-size: 28px;
+    }
+}

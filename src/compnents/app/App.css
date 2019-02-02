@@ -1,0 +1,354 @@
+/*Header*/
+.app-div{
+  background: rgb(240,241,249)
+}
+
+.topbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar-wrapper{
+  background: white;
+}
+.top-right {
+  color: #193053;
+  font-size: 32px;
+  font-family: 'Open Sans Hebrew', sans-serif;
+}
+
+.top-right a {
+  text-decoration: none;
+  font-weight: initial;
+}
+
+.top-right a:hover{
+  text-decoration: none;
+  color: #193053;
+}
+
+.top-right .highlight{
+  color: #c8a067;
+}
+.header-logo {
+  height: 38px;
+  height: 38px;
+  margin-top: -17px;
+  margin-left: 9px;
+}
+
+.top-left{
+  margin-top: 13px;
+
+}
+
+.topbar-list {
+  display: flex;
+}
+
+.topbar-list li {
+  font-family: 'Assistant', sans-serif;
+  font-size: 20px;
+  color: black;
+  padding-right:20px;
+}
+
+.topbar-list li a{
+  color: #193053;
+  transition: all 0.2s ease;
+}
+
+.topbar-list li a.active,
+.topbar-list li a:hover{
+  color: #3591F9;
+  font-weight: normal;
+}
+
+/* .topbar-list li:last-child a{
+  color: #3591F9;
+  border: 1px solid #3591F9;
+  border-radius: 25px;
+  padding: 5px 35px;
+}
+
+.topbar-list li:last-child a:hover, 
+.topbar-list li:last-child a.active{
+  color: white;
+  background: #3591F9;
+} */
+
+.active {
+  color: #193053;
+  font-weight: bold;
+}
+
+/**********************/
+
+.bottombar {
+  font-family: Open Sans Hebrew,sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-position-y: center;
+}
+
+bottombar a, .bottombar:hover a{
+  text-decoration: none !important;
+}
+
+#disable-deco, #disable-deco:hover, #disable-deco:active{
+  text-decoration: none !important;
+}
+
+.bottombar .imgForLogo{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 237px;
+  left: 1000px;
+  top: 9px;
+}
+
+.main-title {
+  text-decoration: none !important;
+  font-size: 3rem;
+  /*color: white;*/
+  text-align: center;
+  padding: 32px;
+  font-family: 'Open Sans Hebrew', sans-serif;
+  font-weight: bold;
+  text-shadow: 0 0 20px black;
+}
+
+.subtitle {
+  text-decoration: none !important;
+  text-align: center;
+  font-size: 1.5rem;
+  /*color: #3591F9;*/
+  padding-bottom: 32px;
+  margin: 0px;
+  position: relative;
+  top: -25px;
+  font-weight: bold;
+  text-shadow: 0 0 20px black;
+
+}
+
+.before-after-line {
+  content: ' ';
+  width: 60px;
+  height: 2px;
+  display: inline-block;
+  /*background-color: #3591F9;*/
+  margin: 8px 25px;
+  position: relative;
+  top: -18px;
+}
+.teate{
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-list {
+  background-color: #0E1B2F;
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mobile-list li {
+  flex-grow: 1;
+  height: 46px;
+  color: #6C7D97;
+}
+
+.mobile-list li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 11px;
+  font-size: 14px;
+
+}
+
+.mobile-list .active {
+  color: #45e47b;
+  border-bottom: 2px solid#45e47b;
+}
+
+
+/*Links*/
+.topbar-list a:link, .topbar-list a:active, .topbar-list a:hover, .mobile-list a:active, .mobile-list a:hover, .mobile-list a:link{
+    text-decoration: none;
+
+  }
+
+/*aside*/
+.site-side-bar{
+  margin:15px 0px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(204,204,204,1);
+  box-shadow: 0px 0px 15px 0px rgba(204,204,204,1);
+}
+
+/*Footer*/
+
+footer {
+  background-color: #0E1B2F;
+  width: 100%;
+}
+
+
+
+/**********Responsive Stuff*****************/
+
+@media (max-width: 720px) {
+  .main-title {
+    font-size: 1.375rem;
+
+  }
+  .subtitle {
+    font-size: 1rem;
+
+  }
+  .subtitle:before, .subtitle:after {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .mobile-list{
+    display:flex;
+  }
+  .topbar-wrapper{
+    display: none;
+  }
+
+  .bottombar{
+    background-color: #193053;
+  }
+}
+
+/**********************************
+*top10-contact-us-single component
+**********************************/
+.top10-contact-us-single{
+  background-color: #fff;
+  border: 1px solid #D2D2FF;
+  border-radius: 5px;
+  padding: 10px;
+  margin:15px 0px;
+  display: none;
+}
+.top10-contact-us-single.show{
+  display: block;
+}
+.top10-contact-us-single .header{
+  margin-bottom: 35px;
+}
+.top10-contact-us-single .btn-hide{
+  display: block;
+  margin:0px auto 0px;
+  font-size: 32px;
+  width: 32px;
+  cursor: pointer;
+  text-align: center;
+}
+.top10-contact-us-single .header .details{
+  padding: 10px;
+  background-color: #ececec;
+  text-align: center;
+}
+.top10-contact-us-single .body{
+  overflow: hidden;
+}
+.top10-contact-us-single .body .left{
+  float:left;
+  width:50%;
+  padding: 0px 15px 15px 15px;
+}
+.top10-contact-us-single .body .right{
+  float:right;
+  width:45%;
+  border-left: 1px solid #C6D6F2;
+}
+.top10-contact-us-single .body .right form{
+  text-align: center;
+}
+.top10-contact-us-single .body .right input, .top10-contact-us-single .body .right textarea{
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  height: 42px;
+  padding: 5px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.top10-contact-us-single .body .right textarea{
+  height: 130px;
+}
+.top10-contact-us-single .body .right button{
+  background: #3591F9;
+  border-radius: 100px;
+  color: #FFFFFF;
+  width: 280px;
+  height: 42px;
+  border:0px solid #ccc;
+  cursor: pointer;
+}
+
+.top10-contact-us-single .body .right button:hover{
+  opacity: 0.5;
+}
+
+/*Page Temaple*/
+.page-wrapper{
+  background-color: #fff;
+  padding:10px;
+  margin: 15px 0px;
+}
+
+
+/* mobile classes */
+.main-title-mobile{
+  font-weight: bold;
+  padding-top: 20px;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  text-shadow: 0 0 20px black;
+}
+
+.mobile-title-global{
+  color: white;
+}
+
+.main-subtitle-mobile{
+  font-size: 0.9rem;
+}
+
+.subtitle-mobile{
+  font-size: 0.9rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px black;
+}
+
+.subtitle-mobile span{
+  color: red;
+}
+
+.contactBox-pad{
+  padding-top: 5px;
+}
+
+@media(max-width: 1200px){
+  .imgForLogo{
+    display: none;
+  }
+}

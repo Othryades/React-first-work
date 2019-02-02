@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,400,700|Rubik:300,400,700&subset=hebrew');
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+/*font-family: 'Rubik', sans-serif;*/
+/*font-family: 'Assistant', sans-serif;*/
+
+/*Add Bootstrap Rules*/
+@media (min-width: 1400px) {
+  .container {
+    width: 1400px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1185px;
+  }
+}
+
+
+/*Body Rules*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Assistant', sans-serif;
+  direction: rtl;
+  background-color: #F8F8FC;
+}
+ul {
+  list-style: none;
+}
+
+
+/*Remove input type number deafulr arrows*/
+/* For Firefox */
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.mobile-green-color{
+  color: #45E47B;
+}
+
+.mobile-golden-color{
+  color: #eadfb0;
+}
+
+.mobile-blue-color{
+  color: #385487;
+}
+
+.fa-colors{
+  color: #6179A5;
+}
+
+.mobile-links-color{
+  color: #6C7D97;
+}
+
+label.dv-star-rating-star.dv-star-rating-full-star{
+  width: 20% !important;
+}
+label.dv-star-rating-star.dv-star-rating-empty-star{
+  width: 20% !important;
+  float: left !important;
+}
+
+button:disabled{
+  color: rgb(84, 84, 84) !important;
+  background: gainsboro !important;
+}
+
+
+@media (max-width: 992px){
+  .container {
+    width: 100vh !important;
+    max-width: 100%;
+}
+}

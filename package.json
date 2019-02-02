@@ -1,0 +1,27 @@
+{
+  "name": "top10leader",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "formik": "^0.11.4",
+    "grunt": "^1.0.1",
+    "grunt-aws-s3": "*",
+    "grunt-cli": "^1.2.0",
+    "react": "^16.2.0",
+    "react-circular-progressbar": "^0.6.0",
+    "react-dom": "^16.2.0",
+    "react-google-maps": "^9.4.2",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-scroll-up-button": "^1.5.10",
+    "react-star-rating-component": "^1.3.0",
+    "react-validate-form": "^1.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

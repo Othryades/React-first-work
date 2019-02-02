@@ -1,0 +1,47 @@
+.stats-wrapper{
+    margin-bottom: 15px;
+    background: #F8F8FC;
+    border: 1px solid #D2D2FF;
+    border-radius: 5px;
+}
+
+.stats-wrapper h1{
+    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.stats-wrapper h3{
+    color: #57A3FA;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 49px;
+    color: #57A3FA;
+    /* font-family: Assistant-Regular; */
+}
+
+.stats-wrapper img.likeImage{
+    width: 47px;
+}
+
+.stats-wrapper img.doctorImage{
+    width: 39px;
+}
+
+.stats-border{
+    width: 1px;
+    height: 100px;
+    background: #D3DCE7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.stats-wrapper p{
+    position: relative;
+    top: -7px;
+    font-weight: bold;
+    /* font-family: Assistant-SemiBold; */
+    font-size: 18px;
+    color: #052742;
+}

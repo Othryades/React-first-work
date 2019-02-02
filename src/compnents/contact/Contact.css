@@ -1,0 +1,98 @@
+h2, h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #193053;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.page-wrapper {
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    border-radius: 5px;
+    padding: 50px 25px;
+}
+
+.contact-us h3 {
+    margin-top: 15px;
+    margin-bottom: 27px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.contact-us .row {
+    padding: 15px 0;
+}
+
+.contact-us .contact-text {
+    padding: 0 70px;
+}
+
+.contact-us .contact-text p {
+    font-size: 16px;
+    color: #6D89BB;
+}
+
+.contact-us .col-md-5 {
+    padding: 0 2%;
+}
+
+.contact-form {
+    border-left: 1px solid rgba(211, 211, 211, 0.5);
+}
+
+.contact-form input {
+    width: 80%;
+    height: 42px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #D8DBF6;
+    border-radius: 6px;
+    padding: 5px;
+    margin-bottom: 12px;
+}
+
+.contact-form input::placeholder {
+    font-size: 18px;
+    color: #AAB1BA;
+}
+
+.contact-form button {
+    background: #3591F9;
+    border-radius: 100px;
+    width: 80%;
+    height: 42px;
+    display: block;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 25px;
+    border: 0px;
+    cursor: pointer;
+    /* margin-right: 10px; */
+    margin: 0 auto;
+}
+
+.contact-form button:hover {
+    /* background: #105189; */
+    opacity: 0.5;
+}
+
+.contact-alert, .contact-alert-danger {
+    display: none;
+    position: fixed;
+    width: 400px;
+    margin-right: -200px;
+
+    top: 50%;
+    right: 50%;
+}
+
+.contact-form .alert.alert-danger {
+    width: 80% !important;
+    margin: 0 auto !important;
+    /* margin-bottom: 12px; */
+    position: relative !important;
+    top: -12px !important;
+}

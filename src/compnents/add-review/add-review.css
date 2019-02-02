@@ -1,0 +1,72 @@
+.add-review-wrapper {
+    background: #ECEEFF;
+    /*border: 1px solid #7594D0;*/
+}
+
+.inner-wrapper{
+    padding: 40px 50px;
+}
+
+.inner-wrapper h1{
+    font-size: 32px;
+    color: #193053;
+    margin: 0;
+}
+
+.inner-wrapper h1 i {
+    color: #CFD2F3;
+    margin-bottom: 33px;
+}
+
+.inner-wrapper textarea{
+    margin-top: 8px;
+}
+
+.inner-wrapper .input-wrap {
+    width: 49%;
+    display: inline-block;
+    /*margin: 5px;*/
+}
+
+.inner-wrapper input::placeholder, .inner-wrapper textarea::placeholder{
+    color: #C3C5D3;
+}
+
+.inner-wrapper h4{
+    font-size: 1.4rem;
+    margin-top: 80px;
+}
+
+.inner-wrapper .rating-stars{
+    font-size: 30px;
+    margin: 2px;
+    color: #CFD2F3;
+}
+
+
+.inner-wrapper .rating-stars:hover{
+    cursor: pointer;
+}
+
+.inner-wrapper .star-active{
+    color: #3591F9;
+}
+
+.inner-wrapper button{
+    border: 0;
+    color: white;
+    padding: 8px 35px;
+    background: #3591F9;
+    border-radius: 100px;
+    margin-top: 25px;
+}
+
+.inner-wrapper button:hover{
+    cursor: pointer;
+}
+
+.np-top10desktop .inner-wrapper .alert.alert-danger{
+    width: 100% !important;
+    margin: 0 auto !important;
+     top: 0px !important;
+}

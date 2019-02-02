@@ -1,0 +1,26 @@
+.about-mobile {
+    background: #F9FAFF;
+    padding: 18px 35px;
+    /* margin-top: 10px; */
+    color: #6179A5;
+}
+
+.about-mobile span {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #3591F9;
+    border-radius: 50px;
+    background: white;
+    color: #3591F9;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+
+.about-mobile span i {
+    margin-right: 7px;
+    position: relative;
+    top: 1px;
+}

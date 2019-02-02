@@ -1,0 +1,59 @@
+.np-faq-component{
+
+}
+
+.np-faq-component .col-md-4{
+  /* margin-top: 100px; */
+}
+
+.np-faq-component h6 button:hover{
+  color: #3591f9;
+  /*border: 2px solid #6d89bb;*/
+  /*font-weight: bold;*/
+}
+
+.np-faq-component h6 button{
+  text-align: right;
+  border: 0px;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 0px;
+  cursor: pointer;
+  color: #6d89bb;
+  background: none;
+  border: none;
+}
+
+.page-wrapper .col-md-8 div{
+  color: #6d89bb;
+}
+
+.np-faq-component h4{
+  color: #3591f9;
+  font-size: 1.2rem;
+  margin: 25px 0;
+}
+
+.page-wrapper .page-wrapper-item-select{
+  border-right: 1px solid #c5d9f5;
+  padding: 50px 0;
+  color: black;
+  padding-right: 20px;
+  margin: 30px 0;
+}
+
+.mobile-guide{
+  margin-top: 25px;
+}
+
+.mobile-guide button{
+  background: none;
+  border: none;
+  color: #3591f9;
+}
+
+.mobile-guide .mobile-a{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,32 @@
+.faq {
+  display: none;
+  margin-top: 28px;
+  font-family: 'Open Sans Hebrew', sans-serif;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq h4 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #3591F9;
+}
+.faq .fa {
+  color: #3591F9;
+}
+
+.faq .hr {
+  margin-top: 17px;
+
+  border-bottom: 2px solid #d8d8d8;
+  width: 120px;
+}
+
+.faq .answer {
+  color: #50575F;
+  width: 90%;
+
+}
